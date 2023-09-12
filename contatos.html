@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<!-- Cabeça do site -->
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<title> Criando seu primeiro site com HTML </title>
+	</head>
+
+	<!-- Corpo do site -->
+	<body>
+		<!-- Grid -->
+		<div class="grid">
+			<!-- Menus - Grid 2 -->
+			<div class="menu grid-1">
+				<ul>
+					<li><a href="index.html">Página Principal</a></li>
+					<li><a href="sobre.html">Sobre</a></li>
+					<li><a href="horarios.html">Horários</a></li>
+					<li><a href="contatos.html">Contato</a></li>
+				</ul>
+			</div>
+
+			<!-- Grid 2 -->
+			<div class="grid-2">
+				<!-- Cabeçalho -->
+				<header> 
+					<img title="Contato" alt="Contato da clínica" src="contato.png" width="150px" height="150px">				
+				</header>
+
+				<!-- Content -->
+				<div class="content grid-3">
+					<div class="tel-email">
+						<p>Tel: (99) 99999-9999</p>
+						<p>Email: clinicaexemplo@exemplo.com.br</p>
+					</div>
+					<div class="google-maps">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14702.00025023997!2d-43.126249653521185!3d-22.894919351714705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9983c38c1e6365%3A0x61b54b66a3eb9498!2sLabi%20Exames!5e0!3m2!1spt-BR!2sbr!4v1694477235147!5m2!1spt-BR!2sbr" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+					<div class="formulario">
+						<form onsubmit="" method="GET">
+							<label>Nome:</label>	<input type="text" name="nome"> <br />
+							<label>Email:</label>	<input type="email" name="email"> <br />
+							<label>Assunto</label>	<input type="text" name="assunto"> <br />
+							<label>Mensagem</label>	<textarea></textarea> <br />
+							<button type="submit">Enviar</button>
+
+						</form>
+					</div>
+				</div>
+
+				<!-- Footer -->
+				<footer>
+					<p>
+						<sup>Copyright © 1999 - 2023 Todos os direitos reservados. O logotipo é uma marca registrada . O logotipo é uma marca registrada.<br />
+						O uso deste Site está sujeito aos termos de uso expressos. Ao usar este site, você concorda em estar vinculado por estes Termos de Serviço Universal.</sup>
+					</p>				
+				</footer>
+			</div>
+		</div>
+
+	</body>
+</html>
